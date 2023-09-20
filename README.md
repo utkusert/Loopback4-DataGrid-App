@@ -1,76 +1,28 @@
-# social-media-api
+# Social Media Api
 
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
 ## Install dependencies
 
-By default, dependencies were installed when this application was generated.
-Whenever dependencies in `package.json` are changed, run the following command:
-
+Projeyi klonladıktan sonra "npm install" ile projenin bağlıklıklarını yükleyeyelim.
 ```sh
 npm install
 ```
 
-To only install resolved dependencies in `package-lock.json`:
+## Json dosyasını ayarlamak 
 
-```sh
-npm ci
-```
+Json dosyasını lokal olarak kaydedip işlem yaptığımız için 
+src/datasources/db.datasource.json dosyasına sağa tıklayıp "Copy path" diyelim.
+
+Daha sonra bu kopyaladığımız yolu 
+
+src/datasources/social-media-data.datasource.ts içinde bulunan config'in altındaki file alanına '' içinde kopyayalım.
 
 ## Run the application
 
+Dependencies'ları kurduktan sonra projemizi başlatmak için : 
 ```sh
 npm start
 ```
-
-You can also run `node .` to skip the build step.
-
-Open http://127.0.0.1:3000 in your browser.
-
-## Rebuild the project
-
-To incrementally build the project:
-
-```sh
-npm run build
-```
-
-To force a full build by cleaning up cached artifacts:
-
-```sh
-npm run rebuild
-```
-
-## Fix code style and formatting issues
-
-```sh
-npm run lint
-```
-
-To automatically fix such issues:
-
-```sh
-npm run lint:fix
-```
-
-## Other useful commands
-
-- `npm run migrate`: Migrate database schemas for models
-- `npm run openapi-spec`: Generate OpenAPI spec into a file
-- `npm run docker:build`: Build a Docker image for this application
-- `npm run docker:run`: Run this application inside a Docker container
-
-## Tests
-
-```sh
-npm test
-```
-
-## What's next
-
-Please check out [LoopBack 4 documentation](https://loopback.io/doc/en/lb4/) to
-understand how you can continue to add features to this application.
-
-[![LoopBack](https://github.com/loopbackio/loopback-next/raw/master/docs/site/imgs/branding/Powered-by-LoopBack-Badge-(blue)-@2x.png)](http://loopback.io/)
-#Loopback4
+Open http://127.0.0.1:4000 in your browser.
