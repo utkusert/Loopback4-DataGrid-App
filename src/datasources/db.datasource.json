@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "SocialMedia": 4
+  },
+  "models": {
+    "SocialMedia": {
+      "1": "{\"link\":\"twitter.com\",\"name\":\"twitter\",\"description\":\"\",\"id\":\"1\"}",
+      "2": "{\"link\":\"https:/12312/123.com\",\"name\":\"1234\",\"description\":\"Açıklama\",\"id\":\"2\"}",
+      "3": "{\"link\":\"github.com\",\"name\":\"GitHub\",\"description\":\"Software\",\"id\":\"3\"}"
+    }
+  }
+}
